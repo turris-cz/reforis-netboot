@@ -1,0 +1,17 @@
+.netboot-devices-table td {
+    vertical-align: middle;
+    height: 4rem;
+}
+
+.netboot-serial-number {
+    width: 40%;
+}
+
+.netboot-status {
+    width: 20%;
+    text-align: center;
+}
+
+.netboot-action {
+    width: 40%;
+}

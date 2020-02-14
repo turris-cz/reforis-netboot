@@ -5,22 +5,21 @@
  * See /LICENSE for more information.
  */
 
-import React, { useEffect } from "react";
+import React from "react";
+import PropTypes from "prop-types";
 
-import { useAPIGet } from "foris";
+import Devices from "./Devices";
 
-import API_URLs from "API";
+Netboot.propTypes = {
+    ws: PropTypes.object.isRequired,
+};
 
-export default function Netboot() {
-    const [, getExample] = useAPIGet(API_URLs.example);
-    useEffect(() => {
-        getExample();
-    }, [getExample]);
-
+export default function Netboot({ ws }) {
     return (
         <>
-            <h1>Netboot</h1>
-            <p>{_("Add your components here")}</p>
+            <h1>{_("Netboot")}</h1>
+            <p>{_("Manage devices which can be booted from this router through network.")}</p>
+            <Devices ws={ws} />
         </>
     );
 }
