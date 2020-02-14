@@ -6,15 +6,15 @@
  */
 
 import React from "react";
-import mockAxios from "jest-mock-axios";
 import { render } from "foris/testUtils/customTestRender";
+import { WebSockets } from "foris";
 
 import Netboot from "../Netboot";
 
 describe("<Netboot />", () => {
     it("should render component", () => {
-        const { getByText } = render(<Netboot />);
-        expect(getByText("Netboot")).toBeDefined();
-        expect(mockAxios.get).toBeCalledWith("/reforis/netboot/api/example", expect.anything());
+        const webSockets = new WebSockets();
+        const { container } = render(<Netboot ws={webSockets} />);
+        expect(container).toMatchSnapshot();
     });
 });

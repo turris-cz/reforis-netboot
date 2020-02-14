@@ -11,7 +11,9 @@ const API_URL_PREFIX = `${REFORIS_URL_PREFIX}/netboot/api`;
 
 const API_URLs = new Proxy(
     {
-        example: "/example",
+        devices: "/devices",
+        accept: "/accept",
+        unpair: "/unpair",
     },
     {
         get: (target, name) => `${API_URL_PREFIX}${target[name]}`,

@@ -30,17 +30,22 @@ netboot = {
 }
 
 
-@blueprint.route('/example', methods=['GET'])
-def get_example():
-    return jsonify(current_app.backend.perform('example_module', 'example_action'))
+@blueprint.route('/devices', methods=['GET'])
+def get_devices():
+    return jsonify(current_app.backend.perform('netboot', 'list')['devices'])
 
 
-@blueprint.route('/example', methods=['POST'])
-def post_example():
-    validate_json(request.json, {'modules': list})
+@blueprint.route('/accept/<serial>', methods=['PUT'])
+def accept_device(serial):
+    response = current_app.backend.perform('netboot', 'accept', {'serial': serial})
+    if response.get('task_id') is None:
+        raise APIError(_('Cannot accept pairing request.'), HTTPStatus.INTERNAL_SERVER_ERROR)
+    return '', HTTPStatus.NO_CONTENT
 
-    response = current_app.backend.perform('example_module', 'example_action', request.json)
+
+@blueprint.route('/unpair/<serial>', methods=['PUT'])
+def unpair_device(serial):
+    response = current_app.backend.perform('netboot', 'revoke', {'serial': serial})
     if response.get('result') is not True:
-        raise APIError(_('Cannot create entity'), HTTPStatus.INTERNAL_SERVER_ERROR)
-
-    return jsonify(response), HTTPStatus.CREATED
+        raise APIError(_('Cannot unpair devices.'), HTTPStatus.INTERNAL_SERVER_ERROR)
+    return '', HTTPStatus.NO_CONTENT
