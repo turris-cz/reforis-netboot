@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-31 15:32+0100\n"
-"PO-Revision-Date: 2020-05-05 15:11+0000\n"
+"PO-Revision-Date: 2020-05-19 15:41+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
 "reforis-netboot-plugin/cs/>\n"
@@ -46,7 +46,7 @@ msgstr "Neznámý stav"
 
 #: js/src/netboot/DevicesTableRow.js:61
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Čeká na přijetí"
 
 #: js/src/netboot/DevicesTableRow.js:83
 msgid "Unpair device"
