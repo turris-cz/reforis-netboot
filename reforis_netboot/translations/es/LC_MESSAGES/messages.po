@@ -8,63 +8,68 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-31 15:32+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-05-25 09:41+0000\n"
+"Last-Translator: Eduardo Cuthbert <elguber@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
 msgid "Netboot"
-msgstr ""
+msgstr "Arranque de red"
 
 #: js/src/netboot/DevicesTable.js:22
 msgid "No netboot devices available."
-msgstr ""
+msgstr "No arranque de red dispositivos disponibles."
 
 #: js/src/netboot/DevicesTable.js:31
 msgid "Serial Number"
-msgstr ""
+msgstr "Nùmero de serie"
 
 #: js/src/netboot/DevicesTable.js:32 js/src/netboot/DevicesTableRow.js:58
 msgid "Paired"
-msgstr ""
+msgstr "Emparejado"
 
 #: js/src/netboot/DevicesTable.js:33
 msgid "Change status"
-msgstr ""
+msgstr "Cambiar estado"
 
 #: js/src/netboot/DevicesTableRow.js:54
 msgid "Unknown status"
-msgstr ""
+msgstr "Estado desconocido"
 
 #: js/src/netboot/DevicesTableRow.js:61
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Esperando aceptaciòn"
 
 #: js/src/netboot/DevicesTableRow.js:83
 msgid "Unpair device"
-msgstr ""
+msgstr "Desvincular dispositivo"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Aceptar peticion de vìnculo"
 
 #: js/src/netboot/Netboot.js:21
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
+"Administrar dispositivos los cuales pueden ser arrancados desde este router "
+"atravès de la red."
 
 #: js/src/netboot/hooks.js:65
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "No se pueden vincular dispositivos."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "No puede aceptar peticiones de vìnculo."
 
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
-msgstr ""
+msgstr "No puede desvincular dispositivos."
