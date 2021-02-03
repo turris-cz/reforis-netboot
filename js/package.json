@@ -1,9 +1,13 @@
 {
   "name": "reforis_netboot",
   "author": "CZ.NIC, z.s.p.o.",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.nic.cz/turris/reforis/reforis-netboot.git"
+  },
   "license": "GPL-3.0",
-  "version": "0.3.0",
-  "description": "",
+  "version": "0.3.1",
+  "description": "reForis Netboot Plugin",
   "main": "./src/app.js",
   "dependencies": {
     "foris": "^4.5.0"
