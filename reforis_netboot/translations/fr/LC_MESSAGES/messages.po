@@ -8,65 +8,68 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-31 15:32+0100\n"
-"PO-Revision-Date: 2020-01-31 15:32+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-03-17 13:36+0000\n"
+"Last-Translator: XoD DarK <xod@xoddark.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/fr/>\n"
 "Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
 msgid "Netboot"
-msgstr ""
+msgstr "Démarrage réseaux"
 
 #: js/src/netboot/DevicesTable.js:22
 msgid "No netboot devices available."
-msgstr ""
+msgstr "Aucun appareils netboot disponible."
 
 #: js/src/netboot/DevicesTable.js:31
 msgid "Serial Number"
-msgstr ""
+msgstr "Numéro de série"
 
 #: js/src/netboot/DevicesTable.js:32 js/src/netboot/DevicesTableRow.js:58
 msgid "Paired"
-msgstr ""
+msgstr "Appairé"
 
 #: js/src/netboot/DevicesTable.js:33
 msgid "Change status"
-msgstr ""
+msgstr "Changer le statut"
 
 #: js/src/netboot/DevicesTableRow.js:54
 msgid "Unknown status"
-msgstr ""
+msgstr "Statut inconnu"
 
 #: js/src/netboot/DevicesTableRow.js:61
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Attente d'autorisation"
 
 #: js/src/netboot/DevicesTableRow.js:83
 msgid "Unpair device"
-msgstr ""
+msgstr "Dissocier le périphérique"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Accepter la demande d'association"
 
 #: js/src/netboot/Netboot.js:21
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
+"Gérez les appareils pouvant être démarrés à partir de ce routeur via le "
+"réseau."
 
 #: js/src/netboot/hooks.js:65
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "Impossible d'appairer les appareils."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "Impossible d'accepter la demande d'association."
 
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
-msgstr ""
-
+msgstr "Impossible de dissocier les appareils."

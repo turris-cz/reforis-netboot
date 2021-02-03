@@ -8,66 +8,69 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-31 15:32+0100\n"
-"PO-Revision-Date: 2020-01-31 15:32+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-03-13 14:33+0000\n"
+"Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/ru/>\n"
 "Language: ru\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.0-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
 msgid "Netboot"
-msgstr ""
+msgstr "Сетевая загрузка"
 
 #: js/src/netboot/DevicesTable.js:22
 msgid "No netboot devices available."
-msgstr ""
+msgstr "Нет доступных сетевых устройств загрузки."
 
 #: js/src/netboot/DevicesTable.js:31
 msgid "Serial Number"
-msgstr ""
+msgstr "Серийный номер"
 
 #: js/src/netboot/DevicesTable.js:32 js/src/netboot/DevicesTableRow.js:58
 msgid "Paired"
-msgstr ""
+msgstr "Соединенный"
 
 #: js/src/netboot/DevicesTable.js:33
 msgid "Change status"
-msgstr ""
+msgstr "Изменить статус"
 
 #: js/src/netboot/DevicesTableRow.js:54
 msgid "Unknown status"
-msgstr ""
+msgstr "Неизвестный статус"
 
 #: js/src/netboot/DevicesTableRow.js:61
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "В ожидании принятия"
 
 #: js/src/netboot/DevicesTableRow.js:83
 msgid "Unpair device"
-msgstr ""
+msgstr "Не сопряженное устройство"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Принять запрос на сопряжение"
 
 #: js/src/netboot/Netboot.js:21
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
+"Управляйте устройствами, которые могут быть загружены с этого маршрутизатора "
+"через сеть."
 
 #: js/src/netboot/hooks.js:65
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "Невозможно подключить устройства."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "Не удается принять запрос на сопряжение."
 
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
-msgstr ""
-
+msgstr "Невозможно отключить устройства."

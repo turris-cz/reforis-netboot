@@ -1,4 +1,4 @@
-# Norwegian Bokmål (Norway) translations for PROJECT.
+# Norwegian Bokmål translations for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -8,65 +8,66 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-01-31 15:32+0100\n"
-"PO-Revision-Date: 2020-01-31 15:32+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: nb_NO\n"
-"Language-Team: nb_NO <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"PO-Revision-Date: 2020-12-14 07:29+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/nb_NO/>\n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
 msgid "Netboot"
-msgstr ""
+msgstr "Oppstart via nettverk"
 
 #: js/src/netboot/DevicesTable.js:22
 msgid "No netboot devices available."
-msgstr ""
+msgstr "Ingen nettverksoppstartsenheter tilgjengelig."
 
 #: js/src/netboot/DevicesTable.js:31
 msgid "Serial Number"
-msgstr ""
+msgstr "Serienummer"
 
 #: js/src/netboot/DevicesTable.js:32 js/src/netboot/DevicesTableRow.js:58
 msgid "Paired"
-msgstr ""
+msgstr "Parret"
 
 #: js/src/netboot/DevicesTable.js:33
 msgid "Change status"
-msgstr ""
+msgstr "Endre status"
 
 #: js/src/netboot/DevicesTableRow.js:54
 msgid "Unknown status"
-msgstr ""
+msgstr "Ukjent status"
 
 #: js/src/netboot/DevicesTableRow.js:61
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Venter på godkjenning"
 
 #: js/src/netboot/DevicesTableRow.js:83
 msgid "Unpair device"
-msgstr ""
+msgstr "Opphev parring av enhet"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Godta parringsforespørsel"
 
 #: js/src/netboot/Netboot.js:21
 msgid "Manage devices which can be booted from this router through network."
-msgstr ""
+msgstr "Håndter enheter som kan startes fra denne ruteren gjennom nettverket."
 
 #: js/src/netboot/hooks.js:65
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "Kan ikke parre enheter."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "Kan ikke godta parringsforespørsel."
 
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
-msgstr ""
-
+msgstr "Kan ikke oppheve parring av enheter."
