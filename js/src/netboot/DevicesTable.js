@@ -29,7 +29,7 @@ export default function DevicesTable({ devices, acceptDevice, unpairDevice }) {
     return (
         <div className="table-responsive">
             <table className="table table-hover netboot-devices-table">
-                <thead>
+                <thead className="thead-light">
                     <tr>
                         <th scope="col" className="netboot-serial-number">
                             {_("Serial Number")}
@@ -41,7 +41,9 @@ export default function DevicesTable({ devices, acceptDevice, unpairDevice }) {
                             scope="col"
                             className="netboot-action"
                             aria-label={_("Change status")}
-                        />
+                        >
+                            {_("Action")}
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
