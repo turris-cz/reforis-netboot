@@ -11,7 +11,11 @@ import { API_STATE, Spinner, ErrorMessage } from "foris";
 
 import DevicesTable from "./DevicesTable";
 import {
-    useLoadDevices, useAcceptDevice, useUpdateOnAccept, useUnpairDevice, useUpdateOnUnpair,
+    useLoadDevices,
+    useAcceptDevice,
+    useUpdateOnAccept,
+    useUnpairDevice,
+    useUpdateOnUnpair,
 } from "./hooks";
 
 Devices.propTypes = {
@@ -29,8 +33,10 @@ export default function Devices({ ws }) {
     const [unpairState, unpairDevice] = useUnpairDevice();
     useUpdateOnUnpair(ws, setDevices);
 
-    if (loadDevicesState === API_STATE.INIT
-        || [loadDevicesState, acceptState, unpairState].includes(API_STATE.SENDING)) {
+    if (
+        loadDevicesState === API_STATE.INIT ||
+        [loadDevicesState, acceptState, unpairState].includes(API_STATE.SENDING)
+    ) {
         return <Spinner />;
     }
     if (loadDevicesState === API_STATE.ERROR) {

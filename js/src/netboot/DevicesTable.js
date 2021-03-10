@@ -19,7 +19,11 @@ DevicesTable.propTypes = {
 
 export default function DevicesTable({ devices, acceptDevice, unpairDevice }) {
     if (!devices || devices.length === 0) {
-        return <p className="text-muted text-center">{_("No netboot devices available.")}</p>;
+        return (
+            <p className="text-muted text-center">
+                {_("No netboot devices available.")}
+            </p>
+        );
     }
 
     return (
@@ -27,9 +31,17 @@ export default function DevicesTable({ devices, acceptDevice, unpairDevice }) {
             <table className="table table-hover netboot-devices-table">
                 <thead>
                     <tr>
-                        <th scope="col" className="netboot-serial-number">{_("Serial Number")}</th>
-                        <th scope="col" className="netboot-status">{_("Paired")}</th>
-                        <th scope="col" className="netboot-action" aria-label={_("Change status")} />
+                        <th scope="col" className="netboot-serial-number">
+                            {_("Serial Number")}
+                        </th>
+                        <th scope="col" className="netboot-status">
+                            {_("Paired")}
+                        </th>
+                        <th
+                            scope="col"
+                            className="netboot-action"
+                            aria-label={_("Change status")}
+                        />
                     </tr>
                 </thead>
                 <tbody>
