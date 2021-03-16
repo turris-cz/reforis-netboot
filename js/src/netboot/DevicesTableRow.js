@@ -24,21 +24,34 @@ DevicesTableRow.propTypes = {
     unpairDevice: PropTypes.func.isRequired,
 };
 
-export default function DevicesTableRow({ device, acceptDevice, unpairDevice }) {
+export default function DevicesTableRow({
+    device,
+    acceptDevice,
+    unpairDevice,
+}) {
     let actionButton;
     if (device.state === DEVICE_STATES.ACCEPTED) {
-        actionButton = <UnpairButton serial={device.serial} unpairDevice={unpairDevice} />;
+        actionButton = (
+            <UnpairButton serial={device.serial} unpairDevice={unpairDevice} />
+        );
     } else if (device.state === DEVICE_STATES.INCOMING) {
-        actionButton = <AcceptButton serial={device.serial} acceptDevice={acceptDevice} />;
+        actionButton = (
+            <AcceptButton serial={device.serial} acceptDevice={acceptDevice} />
+        );
     }
 
     return (
         <tr>
             <td>{device.serial}</td>
             <td className="text-center">
-                {device.state === DEVICE_STATES.TRANSFERING
-                    ? <SpinnerElement />
-                    : <StatusIcon key={`${device.serial}-${device.state}`} status={device.state} />}
+                {device.state === DEVICE_STATES.TRANSFERING ? (
+                    <SpinnerElement />
+                ) : (
+                    <StatusIcon
+                        key={`${device.serial}-${device.state}`}
+                        status={device.state}
+                    />
+                )}
             </td>
             <td className="text-center">{actionButton}</td>
         </tr>

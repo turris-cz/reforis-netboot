@@ -18,7 +18,11 @@ export default function Netboot({ ws }) {
     return (
         <>
             <h1>{_("Netboot")}</h1>
-            <p>{_("Manage devices which can be booted from this router through network.")}</p>
+            <p>
+                {_(
+                    "Manage devices which can be booted from this router through network."
+                )}
+            </p>
             <Devices ws={ws} />
         </>
     );

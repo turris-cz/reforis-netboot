@@ -7,7 +7,11 @@
 
 import { useEffect, useCallback } from "react";
 import {
-    useWSForisModule, useAlert, API_STATE, useAPIGet, useAPIPut,
+    useWSForisModule,
+    useAlert,
+    API_STATE,
+    useAPIGet,
+    useAPIPut,
 } from "foris";
 
 import API_URLs from "API";
@@ -34,7 +38,9 @@ export function useLoadDevices(setDevices) {
 export function useAcceptDevice() {
     const [setAlert] = useAlert();
 
-    const [acceptDeviceResponse, acceptDevice] = useAPIPut(`${API_URLs.accept}`);
+    const [acceptDeviceResponse, acceptDevice] = useAPIPut(
+        `${API_URLs.accept}`
+    );
     useEffect(() => {
         if (acceptDeviceResponse.state === API_STATE.ERROR) {
             setAlert(acceptDeviceResponse.data);
@@ -48,29 +54,32 @@ export function useUpdateOnAccept(ws, setDevices) {
     const [setAlert] = useAlert();
 
     // Update devices data
-    const editDevice = useCallback((serial, status) => {
-        setDevices((previousDevices) => {
-            const devices = [...previousDevices];
-            const editIndex = devices.findIndex(
-                (device) => device.serial === serial,
-            );
-            if (editIndex !== -1) {
-                const device = { ...devices[editIndex] };
+    const editDevice = useCallback(
+        (serial, status) => {
+            setDevices((previousDevices) => {
+                const devices = [...previousDevices];
+                const editIndex = devices.findIndex(
+                    (device) => device.serial === serial
+                );
+                if (editIndex !== -1) {
+                    const device = { ...devices[editIndex] };
 
-                if (status === "started") {
-                    device.state = DEVICE_STATES.TRANSFERING;
-                } else if (status === "succeeded") {
-                    device.state = DEVICE_STATES.ACCEPTED;
-                } else if (status === "failed") {
-                    setAlert(_("Cannot pair devices."));
-                    device.state = DEVICE_STATES.INCOMING;
+                    if (status === "started") {
+                        device.state = DEVICE_STATES.TRANSFERING;
+                    } else if (status === "succeeded") {
+                        device.state = DEVICE_STATES.ACCEPTED;
+                    } else if (status === "failed") {
+                        setAlert(_("Cannot pair devices."));
+                        device.state = DEVICE_STATES.INCOMING;
+                    }
+
+                    devices[editIndex] = device;
                 }
-
-                devices[editIndex] = device;
-            }
-            return devices;
-        });
-    }, [setAlert, setDevices]);
+                return devices;
+            });
+        },
+        [setAlert, setDevices]
+    );
 
     const [acceptNotification] = useWSForisModule(ws, "netboot", "accept");
     useEffect(() => {
@@ -84,7 +93,9 @@ export function useUpdateOnAccept(ws, setDevices) {
 export function useUnpairDevice() {
     const [setAlert] = useAlert();
 
-    const [unpairDeviceResponse, unpairDevice] = useAPIPut(`${API_URLs.unpair}`);
+    const [unpairDeviceResponse, unpairDevice] = useAPIPut(
+        `${API_URLs.unpair}`
+    );
     useEffect(() => {
         if (unpairDeviceResponse.state === API_STATE.ERROR) {
             setAlert(unpairDeviceResponse.data);
@@ -98,18 +109,21 @@ export function useUpdateOnUnpair(ws, setDevices) {
     const [unpairNotification] = useWSForisModule(ws, "netboot", "revoke");
 
     // Update devices data
-    const removeDeviceFromTable = useCallback((serial) => {
-        setDevices((previousDevices) => {
-            const devices = [...previousDevices];
-            const deleteIndex = devices.findIndex(
-                (device) => device.serial === serial,
-            );
-            if (deleteIndex !== -1) {
-                devices.splice(deleteIndex, 1);
-            }
-            return devices;
-        });
-    }, [setDevices]);
+    const removeDeviceFromTable = useCallback(
+        (serial) => {
+            setDevices((previousDevices) => {
+                const devices = [...previousDevices];
+                const deleteIndex = devices.findIndex(
+                    (device) => device.serial === serial
+                );
+                if (deleteIndex !== -1) {
+                    devices.splice(deleteIndex, 1);
+                }
+                return devices;
+            });
+        },
+        [setDevices]
+    );
 
     useEffect(() => {
         if (!unpairNotification) {

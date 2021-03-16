@@ -7,8 +7,17 @@
 
 import React from "react";
 import mockAxios from "jest-mock-axios";
-import { 
-    render, act, wait, waitForElement, getByText, getByTitle, getAllByTitle, getByRole, queryByText, fireEvent,
+import {
+    render,
+    act,
+    wait,
+    waitForElement,
+    getByText,
+    getByTitle,
+    getAllByTitle,
+    getByRole,
+    queryByText,
+    fireEvent,
 } from "foris/testUtils/customTestRender";
 import { mockJSONError } from "foris/testUtils/network";
 import { mockSetAlert } from "foris/testUtils/alertContextMock";
@@ -32,7 +41,8 @@ describe("<Devices />", () => {
 
     it("should render table", async () => {
         expect(mockAxios.get).toBeCalledWith(
-            "/reforis/netboot/api/devices", expect.anything(),
+            "/reforis/netboot/api/devices",
+            expect.anything()
         );
         mockAxios.mockResponse({ data: devices });
         await waitForElement(() => getByText(container, devices[0].serial));
@@ -41,9 +51,11 @@ describe("<Devices />", () => {
 
     it("should handle GET error", async () => {
         mockJSONError();
-        await wait(() => expect(
-            getByText(container, "An error occurred while fetching data."),
-        ).toBeTruthy());
+        await wait(() =>
+            expect(
+                getByText(container, "An error occurred while fetching data.")
+            ).toBeTruthy()
+        );
     });
 
     describe("accept", () => {
@@ -59,7 +71,9 @@ describe("<Devices />", () => {
             // Unpair device
             fireEvent.click(acceptButton);
             expect(mockAxios.put).toBeCalledWith(
-                `/reforis/netboot/api/accept/${devices[0].serial}`, undefined, expect.anything(),
+                `/reforis/netboot/api/accept/${devices[0].serial}`,
+                undefined,
+                expect.anything()
             );
             // Handle error
             const errorMessage = "API didn't handle this well";
@@ -80,7 +94,11 @@ describe("<Devices />", () => {
             mockAxios.mockResponse({ data: { task_id: "5542" } });
             await waitForElement(() => getByText(container, devices[0].serial));
             act(() =>
-                webSockets.dispatch({ module: "netboot", action: "accept", data: { serial: devices[0].serial, status: "started" } })
+                webSockets.dispatch({
+                    module: "netboot",
+                    action: "accept",
+                    data: { serial: devices[0].serial, status: "started" },
+                })
             );
             expect(getByRole(container, "status")).toBeDefined();
         });
@@ -91,7 +109,11 @@ describe("<Devices />", () => {
             mockAxios.mockResponse({ data: { task_id: "5542" } });
             await waitForElement(() => getByText(container, devices[0].serial));
             act(() =>
-                webSockets.dispatch({ module: "netboot", action: "accept", data: { serial: devices[0].serial, status: "succeeded" } })
+                webSockets.dispatch({
+                    module: "netboot",
+                    action: "accept",
+                    data: { serial: devices[0].serial, status: "succeeded" },
+                })
             );
             expect(getAllByTitle(container, "Paired").length).toBe(2);
         });
@@ -101,7 +123,11 @@ describe("<Devices />", () => {
             mockAxios.mockResponse({ data: { task_id: "5542" } });
             await waitForElement(() => getByText(container, devices[0].serial));
             act(() =>
-                webSockets.dispatch({ module: "netboot", action: "accept", data: { serial: devices[0].serial, status: "failed" } })
+                webSockets.dispatch({
+                    module: "netboot",
+                    action: "accept",
+                    data: { serial: devices[0].serial, status: "failed" },
+                })
             );
             expect(mockSetAlert).toHaveBeenCalledWith("Cannot pair devices.");
             // Request didn't change its status
@@ -122,7 +148,9 @@ describe("<Devices />", () => {
             // Unpair device
             fireEvent.click(unpairButton);
             expect(mockAxios.put).toBeCalledWith(
-                `/reforis/netboot/api/unpair/${devices[1].serial}`, undefined, expect.anything(),
+                `/reforis/netboot/api/unpair/${devices[1].serial}`,
+                undefined,
+                expect.anything()
             );
             // Handle error
             const errorMessage = "API didn't handle this well";
@@ -142,9 +170,15 @@ describe("<Devices />", () => {
             mockAxios.mockResponse({ data: { result: true } });
             await waitForElement(() => getByText(container, devices[1].serial));
             act(() =>
-                webSockets.dispatch({ module: "netboot", action: "revoke", data: { serial: devices[1].serial } })
+                webSockets.dispatch({
+                    module: "netboot",
+                    action: "revoke",
+                    data: { serial: devices[1].serial },
+                })
             );
-            await wait(() => expect(queryByText(container, devices[1].serial)).toBeNull());
+            await wait(() =>
+                expect(queryByText(container, devices[1].serial)).toBeNull()
+            );
         });
     });
 });
