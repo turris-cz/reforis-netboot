@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2021-01-08 16:32+0000\n"
+"PO-Revision-Date: 2021-05-30 16:33+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/turris"
-"/reforis-netboot-plugin/hu/>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
@@ -25,12 +26,13 @@ msgstr "Netboot"
 
 #: js/src/netboot/Devices.js:47
 msgid "Devices List"
-msgstr ""
+msgstr "Eszközök listája"
 
 #: js/src/netboot/Devices.js:49
-#, fuzzy
 msgid "This list contains all devices which can be booted from this router."
-msgstr "Az útválasztóról a hálózaton keresztül indítható eszközök kezelése."
+msgstr ""
+"Ez a lista az összes olyan eszközt tartalmazza, amely erről az útválasztóról "
+"indítható."
 
 #: js/src/netboot/DevicesTable.js:24
 msgid "No netboot devices available."
@@ -50,7 +52,7 @@ msgstr "Állapot módosítása"
 
 #: js/src/netboot/DevicesTable.js:45
 msgid "Action"
-msgstr ""
+msgstr "Művelet"
 
 #: js/src/netboot/DevicesTableRow.js:67
 msgid "Unknown status"
@@ -83,4 +85,3 @@ msgstr "Nem fogadható el a párosítási kérelem."
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
 msgstr "Az eszközök nem választhatók le."
-
