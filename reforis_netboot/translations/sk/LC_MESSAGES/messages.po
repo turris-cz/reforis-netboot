@@ -8,77 +8,82 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2020-01-31 15:32+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-06-15 22:23+0000\n"
+"Last-Translator: Atec <nil.maho@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/sk/>\n"
 "Language: sk\n"
-"Language-Team: sk <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.7-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
 msgid "Netboot"
-msgstr ""
+msgstr "Spustenie systému zo siete"
 
 #: js/src/netboot/Devices.js:47
 msgid "Devices List"
-msgstr ""
+msgstr "Zoznam zariadení"
 
 #: js/src/netboot/Devices.js:49
 msgid "This list contains all devices which can be booted from this router."
 msgstr ""
+"Tento zoznam obsahuje všetky zariadenia, na ktorých je možné z tohto routera "
+"spustiť systém zo siete."
 
 #: js/src/netboot/DevicesTable.js:24
 msgid "No netboot devices available."
-msgstr ""
+msgstr "Nie sú dostupné žiadne zariadenia na spoustenie systému zo siete."
 
 #: js/src/netboot/DevicesTable.js:35
 msgid "Serial Number"
-msgstr ""
+msgstr "Sériové číslo"
 
 #: js/src/netboot/DevicesTable.js:38 js/src/netboot/DevicesTableRow.js:71
 msgid "Paired"
-msgstr ""
+msgstr "Spárované"
 
 #: js/src/netboot/DevicesTable.js:43
 msgid "Change status"
-msgstr ""
+msgstr "Zmeniť stav"
 
 #: js/src/netboot/DevicesTable.js:45
 msgid "Action"
-msgstr ""
+msgstr "Akcia"
 
 #: js/src/netboot/DevicesTableRow.js:67
 msgid "Unknown status"
-msgstr ""
+msgstr "Neznámy stav"
 
 #: js/src/netboot/DevicesTableRow.js:74
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Čaká sa na prijatie"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Unpair device"
-msgstr ""
+msgstr "Zrušiť spárovanie zariadenia"
 
 #: js/src/netboot/DevicesTableRow.js:109
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Prijať žiadosť o spárovanie"
 
 #: js/src/netboot/Netboot.js:22
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
+"Spravovať zariadenia, na kterých je možné z tohto routera spustiť systém po "
+"sieti."
 
 #: js/src/netboot/hooks.js:72
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "Nie je možné spárovať zariadenia."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "Nie je možné prijať žiadosť o spárovanie."
 
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
-msgstr ""
-
+msgstr "Nie je možné zrušiť spárovanie zariadení."
