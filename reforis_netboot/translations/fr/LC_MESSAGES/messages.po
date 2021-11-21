@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2020-03-17 13:36+0000\n"
-"Last-Translator: XoD DarK <xod@xoddark.com>\n"
+"PO-Revision-Date: 2021-11-22 10:51+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris"
-"/reforis-netboot-plugin/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
@@ -25,7 +26,7 @@ msgstr "Démarrage réseaux"
 
 #: js/src/netboot/Devices.js:47
 msgid "Devices List"
-msgstr ""
+msgstr "Liste des appareils"
 
 #: js/src/netboot/Devices.js:49
 #, fuzzy
@@ -87,4 +88,3 @@ msgstr "Impossible d'accepter la demande d'association."
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
 msgstr "Impossible de dissocier les appareils."
-
