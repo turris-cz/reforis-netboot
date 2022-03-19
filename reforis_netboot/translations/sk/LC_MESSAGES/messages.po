@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2021-06-17 14:33+0000\n"
-"Last-Translator: Atec <nil.maho@gmail.com>\n"
+"PO-Revision-Date: 2022-03-20 17:59+0000\n"
+"Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
 "reforis-netboot-plugin/sk/>\n"
 "Language: sk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
@@ -31,12 +31,12 @@ msgstr "Zoznam zariadení"
 #: js/src/netboot/Devices.js:49
 msgid "This list contains all devices which can be booted from this router."
 msgstr ""
-"Tento zoznam obsahuje všetky zariadenia, ktoré je možné spustiť z tohto "
-"routera po sieti."
+"Tento zoznam obsahuje všetky zariadenia, na ktorých je možné z tohto routera "
+"spustiť systém po sieti."
 
 #: js/src/netboot/DevicesTable.js:24
 msgid "No netboot devices available."
-msgstr "Nie sú dostupné žiadne zariadenia schopné spustenia po sieti."
+msgstr "Nie sú dostupné žiadne zariadenia schopné spustenia zo siete."
 
 #: js/src/netboot/DevicesTable.js:35
 msgid "Serial Number"
