@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2020-01-31 15:32+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-01-03 16:48+0000\n"
+"Last-Translator: Jonas Wiegner <jonas.wiegner@posteo.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/de/>\n"
 "Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
@@ -24,7 +26,7 @@ msgstr ""
 
 #: js/src/netboot/Devices.js:47
 msgid "Devices List"
-msgstr ""
+msgstr "Geräteliste"
 
 #: js/src/netboot/Devices.js:49
 msgid "This list contains all devices which can be booted from this router."
@@ -52,7 +54,7 @@ msgstr ""
 
 #: js/src/netboot/DevicesTableRow.js:67
 msgid "Unknown status"
-msgstr ""
+msgstr "Unbekannter Status"
 
 #: js/src/netboot/DevicesTableRow.js:74
 msgid "Awaiting acceptance"
@@ -81,4 +83,3 @@ msgstr ""
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
 msgstr ""
-
