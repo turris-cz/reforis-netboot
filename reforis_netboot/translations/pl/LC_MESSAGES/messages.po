@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2020-12-23 12:29+0000\n"
-"Last-Translator: Adam Stańczyk <a.stanczyk@onet.pl>\n"
+"PO-Revision-Date: 2023-03-07 15:38+0000\n"
+"Last-Translator: Arusekk <arek_koz@o2.pl>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/turris/"
+"reforis-netboot-plugin/pl/>\n"
 "Language: pl\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/turris"
-"/reforis-netboot-plugin/pl/>\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
@@ -53,7 +54,7 @@ msgstr "Zmień status"
 
 #: js/src/netboot/DevicesTable.js:45
 msgid "Action"
-msgstr ""
+msgstr "Działanie"
 
 #: js/src/netboot/DevicesTableRow.js:67
 msgid "Unknown status"
@@ -88,4 +89,3 @@ msgstr "Nie można zaakceptować prośby o parowanie."
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
 msgstr "Nie można rozparować urządzeń."
-
