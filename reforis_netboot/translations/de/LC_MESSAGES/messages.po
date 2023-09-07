@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2023-08-15 13:46+0000\n"
+"PO-Revision-Date: 2023-09-08 13:54+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/"
 "reforis-netboot-plugin/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:20
@@ -31,22 +31,24 @@ msgstr "Geräteliste"
 #: js/src/netboot/Devices.js:49
 msgid "This list contains all devices which can be booted from this router."
 msgstr ""
+"Diese Liste enthält alle Geräte, die von diesem Router aus gestartet werden "
+"können."
 
 #: js/src/netboot/DevicesTable.js:24
 msgid "No netboot devices available."
-msgstr ""
+msgstr "Keine Netboot-Geräte verfügbar."
 
 #: js/src/netboot/DevicesTable.js:35
 msgid "Serial Number"
-msgstr ""
+msgstr "Seriennummer"
 
 #: js/src/netboot/DevicesTable.js:38 js/src/netboot/DevicesTableRow.js:71
 msgid "Paired"
-msgstr ""
+msgstr "Gekoppelt"
 
 #: js/src/netboot/DevicesTable.js:43
 msgid "Change status"
-msgstr ""
+msgstr "Status ändern"
 
 #: js/src/netboot/DevicesTable.js:45
 msgid "Action"
@@ -58,28 +60,30 @@ msgstr "Unbekannter Status"
 
 #: js/src/netboot/DevicesTableRow.js:74
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Warten auf Bestätigung"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Unpair device"
-msgstr ""
+msgstr "Gerät entkoppeln"
 
 #: js/src/netboot/DevicesTableRow.js:109
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Anfrage auf Koppelung akzeptieren"
 
 #: js/src/netboot/Netboot.js:22
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
+"Geräte verwalten, die von diesem Router aus über das Netzwerk gestartet "
+"werden können."
 
 #: js/src/netboot/hooks.js:72
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "Koppeln der Geräte nicht möglich."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "Akzeptieren der Koppelungsanfrage nicht möglich."
 
 #: reforis_netboot/__init__.py:50
 msgid "Cannot unpair devices."
-msgstr ""
+msgstr "Entkoppeln der Geräte nicht möglich."
