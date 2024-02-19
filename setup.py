@@ -1,4 +1,4 @@
-#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+#  Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -38,8 +38,8 @@ setuptools.setup(
 
     description='reForis Netboot plugin allows you to set up your Turris MOX as an AP attached to another Turris router.',
     url='https://gitlab.nic.cz/turris/reforis/reforis-netboot',
-    author='CZ.NIC, z.s.p.o.',
-    author_email='bogdan.bodnar@nic.cz',
+    author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
+    author_email='software@turris.com',
 
     install_requires=[
         'flask',
@@ -52,6 +52,7 @@ setuptools.setup(
             'pylint',
             'pycodestyle',
             'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
+            'werkzeug == 2.0.3',  # TODO remove pin when werkzeug is fixed see https://gitlab.nic.cz/turris/reforis/reforis/-/merge_requests/316#note_249166
         ],
     },
     setup_requires=[
@@ -65,11 +66,11 @@ setuptools.setup(
     },
     classifiers=[
         'Framework :: Flask',
-        'Intended Audience :: Developers',
-        'Development Status :: 3 - Alpha',
-        'License :: Other/Proprietary License',
+        'Intended Audience :: End Users/Desktop',
+        'Development Status :: 5 - Production/Stable',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Natural Language :: English',
-        'Operating System :: OS Independent',
+        'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
     ],
