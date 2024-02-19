@@ -9,6 +9,9 @@
     "version": "0.4.0",
     "description": "reForis Netboot Plugin",
     "main": "./src/app.js",
+    "eslintConfig": {
+        "extends": "eslint-config-reforis"
+    },
     "dependencies": {
         "foris": "^5.1.11"
     },
