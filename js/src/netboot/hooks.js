@@ -6,6 +6,7 @@
  */
 
 import { useEffect, useCallback } from "react";
+
 import {
     useWSForisModule,
     useAlert,
@@ -15,6 +16,7 @@ import {
 } from "foris";
 
 import API_URLs from "API";
+
 import DEVICE_STATES from "./deviceStates";
 
 export function useLoadDevices(setDevices) {

@@ -95,10 +95,12 @@ exports[`<Devices /> should render table 1`] = `
               class="text-center"
             >
               <button
-                class="btn btn-primary "
+                class="btn btn-primary d-inline-flex justify-content-center align-items-center"
                 type="button"
               >
-                Accept pairing request
+                <span>
+                  Accept pairing request
+                </span>
               </button>
             </td>
           </tr>
@@ -120,10 +122,12 @@ exports[`<Devices /> should render table 1`] = `
               class="text-center"
             >
               <button
-                class="btn btn-primary "
+                class="btn btn-primary d-inline-flex justify-content-center align-items-center"
                 type="button"
               >
-                Unpair device
+                <span>
+                  Unpair device
+                </span>
               </button>
             </td>
           </tr>
