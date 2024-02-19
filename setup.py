@@ -50,7 +50,6 @@ setuptools.setup(
         'devel': [
             'pytest',
             'pylint',
-            'pylint-quotes',
             'pycodestyle',
             'reforis @ git+https://gitlab.nic.cz/turris/reforis/reforis#egg=reforis',
         ],
