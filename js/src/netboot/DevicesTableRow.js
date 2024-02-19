@@ -6,9 +6,9 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 
 import { Button, SpinnerElement } from "foris";
+import PropTypes from "prop-types";
 
 import "./DevicesTable.css";
 import DEVICE_STATES from "./deviceStates";

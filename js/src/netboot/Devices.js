@@ -6,8 +6,9 @@
  */
 
 import React, { useState } from "react";
-import PropTypes from "prop-types";
+
 import { API_STATE, Spinner, ErrorMessage, formFieldsSize } from "foris";
+import PropTypes from "prop-types";
 
 import DevicesTable from "./DevicesTable";
 import {
