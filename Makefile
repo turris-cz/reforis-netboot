@@ -110,8 +110,7 @@ lint-js-fix:
 
 .PHONY: lint-web
 lint-web: venv
-	$(VENV_BIN)/$(PYTHON) -m pylint --rcfile=pylintrc reforis_netboot
-	$(VENV_BIN)/$(PYTHON) -m pycodestyle --config=pycodestyle reforis_netboot
+	$(VENV_BIN)/$(PYTHON) -m ruff check reforis_netboot
 
 
 # Testing
