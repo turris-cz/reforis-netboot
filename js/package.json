@@ -6,7 +6,7 @@
         "url": "https://gitlab.nic.cz/turris/reforis/reforis-netboot.git"
     },
     "license": "GPL-3.0",
-    "version": "0.4.0",
+    "version": "1.0.0",
     "description": "reForis Netboot plugin allows you to set up your Turris MOX as an AP attached to another Turris router.",
     "main": "./src/app.js",
     "eslintConfig": {
