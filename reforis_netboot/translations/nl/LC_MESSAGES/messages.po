@@ -1,58 +1,58 @@
-# Dutch translations for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Dutch translations for reForis Netboot.
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Netboot
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2020-11-30 20:29+0000\n"
-"Last-Translator: Johan van de Wetering <mail@jvdwetering.nl>\n"
+"POT-Creation-Date: 2024-03-13 11:34+0100\n"
+"PO-Revision-Date: 2024-01-04 21:10+0000\n"
+"Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
 "Language: nl\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/reforis-"
 "netboot-plugin/nl/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/app.js:11 js/src/netboot/Netboot.js:20
+#: js/src/app.js:11 js/src/netboot/Netboot.js:21
 msgid "Netboot"
 msgstr "Netboot"
 
-#: js/src/netboot/Devices.js:47
+#: js/src/netboot/Devices.js:48
 msgid "Devices List"
-msgstr ""
+msgstr "Apparatenlijst"
 
-#: js/src/netboot/Devices.js:49
-#, fuzzy
+#: js/src/netboot/Devices.js:50
 msgid "This list contains all devices which can be booted from this router."
 msgstr ""
-"Beheer apparaten die kunnen worden gestart vanuit deze router via het "
-"netwerk."
+"Deze lijst bevat alle apparaten die vanaf deze router kunnen worden "
+"opgestart."
 
-#: js/src/netboot/DevicesTable.js:24
+#: js/src/netboot/DevicesTable.js:25
 msgid "No netboot devices available."
-msgstr "Geen netboot apparaten beschikbaar."
+msgstr "Geen netboot-apparaten beschikbaar."
 
-#: js/src/netboot/DevicesTable.js:35
+#: js/src/netboot/DevicesTable.js:36
 msgid "Serial Number"
 msgstr "Serienummer"
 
-#: js/src/netboot/DevicesTable.js:38 js/src/netboot/DevicesTableRow.js:71
+#: js/src/netboot/DevicesTable.js:39 js/src/netboot/DevicesTableRow.js:71
 msgid "Paired"
 msgstr "Gekoppeld"
 
-#: js/src/netboot/DevicesTable.js:43
+#: js/src/netboot/DevicesTable.js:44
 msgid "Change status"
-msgstr "Wijzig status"
+msgstr "Status wijzigen"
 
-#: js/src/netboot/DevicesTable.js:45
+#: js/src/netboot/DevicesTable.js:46
 msgid "Action"
-msgstr ""
+msgstr "Actie"
 
 #: js/src/netboot/DevicesTableRow.js:67
 msgid "Unknown status"
@@ -60,31 +60,31 @@ msgstr "Onbekende status"
 
 #: js/src/netboot/DevicesTableRow.js:74
 msgid "Awaiting acceptance"
-msgstr "Wacht op acceptatie"
+msgstr "Goedkeuring afwachten"
 
 #: js/src/netboot/DevicesTableRow.js:96
 msgid "Unpair device"
-msgstr "Ontkoppel apparaat"
+msgstr "Apparaat ontkoppelen"
 
 #: js/src/netboot/DevicesTableRow.js:109
 msgid "Accept pairing request"
-msgstr "Accepteer koppelverzoek"
+msgstr "Koppelverzoek accepteren"
 
-#: js/src/netboot/Netboot.js:22
+#: js/src/netboot/Netboot.js:23
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
-"Beheer apparaten die kunnen worden gestart vanuit deze router via het "
-"netwerk."
+"Apparaten beheren die via het netwerk kunnen worden opgestart vanaf deze "
+"router."
 
-#: js/src/netboot/hooks.js:72
+#: js/src/netboot/hooks.js:74
 msgid "Cannot pair devices."
 msgstr "Kan apparaat niet koppelen."
 
-#: reforis_netboot/__init__.py:42
+#: reforis_netboot/__init__.py:44
 msgid "Cannot accept pairing request."
 msgstr "Kan koppelverzoek niet accepteren."
 
-#: reforis_netboot/__init__.py:50
+#: reforis_netboot/__init__.py:53
 msgid "Cannot unpair devices."
 msgstr "Kan apparaat niet ontkoppelen."
 

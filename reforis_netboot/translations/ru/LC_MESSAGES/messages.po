@@ -1,59 +1,59 @@
-# Russian translations for PROJECT.
-# Copyright (C) 2020 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Russian translations for reForis Netboot.
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis Netboot
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-10 16:44+0100\n"
-"PO-Revision-Date: 2020-03-13 14:33+0000\n"
+"POT-Creation-Date: 2024-03-13 11:34+0100\n"
+"PO-Revision-Date: 2021-03-18 08:18+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/turris"
 "/reforis-netboot-plugin/ru/>\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/app.js:11 js/src/netboot/Netboot.js:20
+#: js/src/app.js:11 js/src/netboot/Netboot.js:21
 msgid "Netboot"
 msgstr "Сетевая загрузка"
 
-#: js/src/netboot/Devices.js:47
+#: js/src/netboot/Devices.js:48
 msgid "Devices List"
-msgstr ""
+msgstr "Список устройств"
 
-#: js/src/netboot/Devices.js:49
-#, fuzzy
+#: js/src/netboot/Devices.js:50
 msgid "This list contains all devices which can be booted from this router."
 msgstr ""
-"Управляйте устройствами, которые могут быть загружены с этого "
-"маршрутизатора через сеть."
+"Этот список содержит все устройства, которые могут загружаться с этого "
+"маршрутизатора."
 
-#: js/src/netboot/DevicesTable.js:24
+#: js/src/netboot/DevicesTable.js:25
 msgid "No netboot devices available."
 msgstr "Нет доступных сетевых устройств загрузки."
 
-#: js/src/netboot/DevicesTable.js:35
+#: js/src/netboot/DevicesTable.js:36
 msgid "Serial Number"
 msgstr "Серийный номер"
 
-#: js/src/netboot/DevicesTable.js:38 js/src/netboot/DevicesTableRow.js:71
+#: js/src/netboot/DevicesTable.js:39 js/src/netboot/DevicesTableRow.js:71
 msgid "Paired"
 msgstr "Соединенный"
 
-#: js/src/netboot/DevicesTable.js:43
+#: js/src/netboot/DevicesTable.js:44
 msgid "Change status"
 msgstr "Изменить статус"
 
-#: js/src/netboot/DevicesTable.js:45
+#: js/src/netboot/DevicesTable.js:46
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #: js/src/netboot/DevicesTableRow.js:67
 msgid "Unknown status"
@@ -71,21 +71,21 @@ msgstr "Не сопряженное устройство"
 msgid "Accept pairing request"
 msgstr "Принять запрос на сопряжение"
 
-#: js/src/netboot/Netboot.js:22
+#: js/src/netboot/Netboot.js:23
 msgid "Manage devices which can be booted from this router through network."
 msgstr ""
 "Управляйте устройствами, которые могут быть загружены с этого "
 "маршрутизатора через сеть."
 
-#: js/src/netboot/hooks.js:72
+#: js/src/netboot/hooks.js:74
 msgid "Cannot pair devices."
 msgstr "Невозможно подключить устройства."
 
-#: reforis_netboot/__init__.py:42
+#: reforis_netboot/__init__.py:44
 msgid "Cannot accept pairing request."
 msgstr "Не удается принять запрос на сопряжение."
 
-#: reforis_netboot/__init__.py:50
+#: reforis_netboot/__init__.py:53
 msgid "Cannot unpair devices."
 msgstr "Невозможно отключить устройства."
 
