@@ -21,7 +21,7 @@ DevicesTable.propTypes = {
 export default function DevicesTable({ devices, acceptDevice, unpairDevice }) {
     if (!devices || devices.length === 0) {
         return (
-            <p className="text-muted text-center">
+            <p className="text-muted text-center mb-0">
                 {_("No netboot devices available.")}
             </p>
         );

@@ -8,6 +8,19 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-07-03
+
+### Changed
+
+-   Updated .gitignore file to exclude .ruff_cache/ directory
+-   Updated dependencies in package.json
+-   Updated Foris JS library to v6.0.2
+-   NPM audit fix
+
+### Removed
+
+-   Removed redundant .gitkeep file
+
 ## [1.0.0] - 2024-03-13
 
 ### Added
@@ -57,7 +70,8 @@ and this project adheres to
 
 -   First netboot plugin release.
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.0.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.1.0...master
+[1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v0.4.0...v1.0.0
 [0.4.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v0.3.1...v0.4.0
 [0.3.1]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v0.3.0...v0.3.1
