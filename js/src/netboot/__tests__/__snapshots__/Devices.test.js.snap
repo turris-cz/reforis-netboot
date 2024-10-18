@@ -84,12 +84,9 @@ exports[`<Devices /> should render table 1`] = `
             <td
               class="text-center"
             >
-              <span>
-                <i
-                  class="fa fa-lg fa-times-circle text-primary"
-                  title="Awaiting acceptance"
-                />
-              </span>
+              <i
+                class="fa"
+              />
             </td>
             <td
               class="text-center"
@@ -111,12 +108,9 @@ exports[`<Devices /> should render table 1`] = `
             <td
               class="text-center"
             >
-              <span>
-                <i
-                  class="fa fa-lg fa-check-circle text-success"
-                  title="Paired"
-                />
-              </span>
+              <i
+                class="fa"
+              />
             </td>
             <td
               class="text-center"
