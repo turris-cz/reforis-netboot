@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (http://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,6 +7,12 @@
 
 import React from "react";
 
+import {
+    faCheckCircle,
+    faQuestionCircle,
+    faTimesCircle,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, SpinnerElement } from "foris";
 import PropTypes from "prop-types";
 
@@ -58,30 +64,39 @@ export default function DevicesTableRow({
     );
 }
 
+const STATUS_ICON_MAP = {
+    [DEVICE_STATES.ACCEPTED]: {
+        icon: faCheckCircle,
+        className: "text-success",
+        description: _("Paired"),
+    },
+    [DEVICE_STATES.INCOMING]: {
+        icon: faTimesCircle,
+        className: "text-primary",
+        description: _("Awaiting acceptance"),
+    },
+    default: {
+        icon: faQuestionCircle,
+        className: "fa-question-circle text-warning",
+        description: _("Unknown status"),
+    },
+};
+
 StatusIcon.propTypes = {
     status: PropTypes.string,
 };
 
 function StatusIcon({ status }) {
-    let className = "fa-question-circle text-warning";
-    let statusDescription = _("Unknown status");
+    const { icon, className, description } =
+        STATUS_ICON_MAP[status] || STATUS_ICON_MAP.default;
 
-    if (status === DEVICE_STATES.ACCEPTED) {
-        className = "fa-check-circle text-success";
-        statusDescription = _("Paired");
-    } else if (status === DEVICE_STATES.INCOMING) {
-        className = "fa-times-circle text-primary";
-        statusDescription = _("Awaiting acceptance");
-    }
-
-    /*
-     * Wrapper tag is required to properly remove icon because "i" element
-     * is actually replaced by "svg" element.
-     */
     return (
-        <span>
-            <i className={`fa fa-lg ${className}`} title={statusDescription} />
-        </span>
+        <FontAwesomeIcon
+            icon={icon}
+            size="lg"
+            className={className}
+            title={description}
+        />
     );
 }
 
