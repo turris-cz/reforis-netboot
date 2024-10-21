@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-10-21
+
+### Added
+
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Updated Foris JS library to v6.4.0
+-   Migrated to FontAwesome v6
+
 ## [1.1.0] - 2024-07-03
 
 ### Changed
@@ -70,7 +81,8 @@ and this project adheres to
 
 -   First netboot plugin release.
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.1.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.2.0...master
+[1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.1.0...v1.2.0
 [1.1.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.0.0...v1.1.0
 [1.0.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v0.4.0...v1.0.0
 [0.4.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v0.3.1...v0.4.0

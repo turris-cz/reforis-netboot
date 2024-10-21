@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-13 11:34+0100\n"
+"POT-Creation-Date: 2024-10-21 18:04+0200\n"
 "PO-Revision-Date: 2023-09-08 13:54+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:21
 msgid "Netboot"
@@ -54,19 +54,19 @@ msgstr "Status ändern"
 msgid "Action"
 msgstr "Aktion"
 
-#: js/src/netboot/DevicesTableRow.js:67
-msgid "Unknown status"
-msgstr "Unbekannter Status"
-
-#: js/src/netboot/DevicesTableRow.js:74
+#: js/src/netboot/DevicesTableRow.js:76
 msgid "Awaiting acceptance"
 msgstr "Warten auf Bestätigung"
 
-#: js/src/netboot/DevicesTableRow.js:96
+#: js/src/netboot/DevicesTableRow.js:81
+msgid "Unknown status"
+msgstr "Unbekannter Status"
+
+#: js/src/netboot/DevicesTableRow.js:111
 msgid "Unpair device"
 msgstr "Gerät entkoppeln"
 
-#: js/src/netboot/DevicesTableRow.js:109
+#: js/src/netboot/DevicesTableRow.js:124
 msgid "Accept pairing request"
 msgstr "Anfrage auf Koppelung akzeptieren"
 
@@ -80,11 +80,11 @@ msgstr ""
 msgid "Cannot pair devices."
 msgstr "Koppeln der Geräte nicht möglich."
 
-#: reforis_netboot/__init__.py:44
+#: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
 msgstr "Akzeptieren der Koppelungsanfrage nicht möglich."
 
-#: reforis_netboot/__init__.py:53
+#: reforis_netboot/__init__.py:51
 msgid "Cannot unpair devices."
 msgstr "Entkoppeln der Geräte nicht möglich."
 
