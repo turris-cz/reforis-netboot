@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-03-13 11:34+0100\n"
+"POT-Creation-Date: 2024-10-21 18:04+0200\n"
 "PO-Revision-Date: 2021-05-30 16:33+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language: hu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:21
 msgid "Netboot"
@@ -54,19 +54,19 @@ msgstr "Állapot módosítása"
 msgid "Action"
 msgstr "Művelet"
 
-#: js/src/netboot/DevicesTableRow.js:67
-msgid "Unknown status"
-msgstr "Ismeretlen állapot"
-
-#: js/src/netboot/DevicesTableRow.js:74
+#: js/src/netboot/DevicesTableRow.js:76
 msgid "Awaiting acceptance"
 msgstr "Elfogadásra vár"
 
-#: js/src/netboot/DevicesTableRow.js:96
+#: js/src/netboot/DevicesTableRow.js:81
+msgid "Unknown status"
+msgstr "Ismeretlen állapot"
+
+#: js/src/netboot/DevicesTableRow.js:111
 msgid "Unpair device"
 msgstr "Eszköz párosításának megszüntetése"
 
-#: js/src/netboot/DevicesTableRow.js:109
+#: js/src/netboot/DevicesTableRow.js:124
 msgid "Accept pairing request"
 msgstr "Párosítási kérelem elfogadása"
 
@@ -78,11 +78,11 @@ msgstr "Az útválasztóról a hálózaton keresztül indítható eszközök kez
 msgid "Cannot pair devices."
 msgstr "Az eszközök nem párosíthatók."
 
-#: reforis_netboot/__init__.py:44
+#: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
 msgstr "Nem fogadható el a párosítási kérelem."
 
-#: reforis_netboot/__init__.py:53
+#: reforis_netboot/__init__.py:51
 msgid "Cannot unpair devices."
 msgstr "Az eszközök nem választhatók le."
 
