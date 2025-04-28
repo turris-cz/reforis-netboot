@@ -1,15 +1,15 @@
 # Swedish translations for reForis Netboot.
-# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis Netboot
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-21 18:04+0200\n"
-"PO-Revision-Date: 2023-09-22 21:02+0000\n"
+"POT-Creation-Date: 2025-04-28 11:47+0200\n"
+"PO-Revision-Date: 2025-03-01 03:02+0000\n"
 "Last-Translator: Kristoffer Grundström "
 "<swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
@@ -19,35 +19,37 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:21
 msgid "Netboot"
-msgstr ""
+msgstr "Uppstart med nätverket"
 
 #: js/src/netboot/Devices.js:48
 msgid "Devices List"
-msgstr ""
+msgstr "Enhetslista"
 
 #: js/src/netboot/Devices.js:50
 msgid "This list contains all devices which can be booted from this router."
 msgstr ""
+"Den här listan innehåller alla enheter som kan startas upp från den här "
+"routern."
 
 #: js/src/netboot/DevicesTable.js:25
 msgid "No netboot devices available."
-msgstr ""
+msgstr "Det finns inga enheter för uppstart via nätverket tillgängliga."
 
 #: js/src/netboot/DevicesTable.js:36
 msgid "Serial Number"
-msgstr ""
+msgstr "Serienummer"
 
 #: js/src/netboot/DevicesTable.js:39 js/src/netboot/DevicesTableRow.js:71
 msgid "Paired"
-msgstr ""
+msgstr "Parad"
 
 #: js/src/netboot/DevicesTable.js:44
 msgid "Change status"
-msgstr ""
+msgstr "Ändra tillstånd"
 
 #: js/src/netboot/DevicesTable.js:46
 msgid "Action"
@@ -55,7 +57,7 @@ msgstr "Åtgärd"
 
 #: js/src/netboot/DevicesTableRow.js:76
 msgid "Awaiting acceptance"
-msgstr ""
+msgstr "Väntar på godkännande"
 
 #: js/src/netboot/DevicesTableRow.js:81
 msgid "Unknown status"
@@ -63,25 +65,25 @@ msgstr "Okänd status"
 
 #: js/src/netboot/DevicesTableRow.js:111
 msgid "Unpair device"
-msgstr ""
+msgstr "Koppla bort enheten"
 
 #: js/src/netboot/DevicesTableRow.js:124
 msgid "Accept pairing request"
-msgstr ""
+msgstr "Acceptera begäran om sammankoppling"
 
 #: js/src/netboot/Netboot.js:23
 msgid "Manage devices which can be booted from this router through network."
-msgstr ""
+msgstr "Hantera enheter som kan startas upp från den här routern via nätverk."
 
 #: js/src/netboot/hooks.js:74
 msgid "Cannot pair devices."
-msgstr ""
+msgstr "Kan inte para enheter."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr ""
+msgstr "Kan inte acceptera begärande om sammankoppling."
 
 #: reforis_netboot/__init__.py:51
 msgid "Cannot unpair devices."
-msgstr ""
+msgstr "Kan inte sluta sammankoppla enheter."
 
