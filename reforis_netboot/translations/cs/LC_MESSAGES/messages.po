@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-28 11:47+0200\n"
-"PO-Revision-Date: 2024-11-15 13:00+0000\n"
+"POT-Creation-Date: 2025-11-07 18:33+0300\n"
+"PO-Revision-Date: 2025-05-14 21:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language: cs\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis-"
@@ -82,9 +82,9 @@ msgstr "Nelze párovat zařízení."
 
 #: reforis_netboot/__init__.py:42
 msgid "Cannot accept pairing request."
-msgstr "Nelze přijmout požadavek na spárování."
+msgstr "Nebylo možné přijmout požadavek na spárování."
 
 #: reforis_netboot/__init__.py:51
 msgid "Cannot unpair devices."
-msgstr "Nelze zrušit spárování zařízení."
+msgstr "Nebylo možné zrušit spárování zařízení."
 
