@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-11-07 18:33+0300\n"
-"PO-Revision-Date: 2024-01-04 21:10+0000\n"
-"Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
+"PO-Revision-Date: 2026-09-04 13:57+0000\n"
+"Last-Translator: Johan van de Wetering <accounts@weterberg.nl>\n"
 "Language: nl\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/reforis-"
 "netboot-plugin/nl/>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: js/src/app.js:11 js/src/netboot/Netboot.js:21
 msgid "Netboot"
@@ -87,4 +88,3 @@ msgstr "Kan koppelverzoek niet accepteren."
 #: reforis_netboot/__init__.py:51
 msgid "Cannot unpair devices."
 msgstr "Kan apparaat niet ontkoppelen."
-
