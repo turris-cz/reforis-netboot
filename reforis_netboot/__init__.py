@@ -5,12 +5,11 @@
 
 """reForis Netboot plugin"""
 
-from pathlib import Path
 from http import HTTPStatus
+from pathlib import Path
 
 from flask import Blueprint, current_app, jsonify
 from flask_babel import gettext as _
-
 from reforis.foris_controller_api.utils import APIError
 
 blueprint = Blueprint(
