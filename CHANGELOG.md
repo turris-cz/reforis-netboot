@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-10-27
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Updated several npm dependencies
+- NPM audit fix
+
 ## [1.4.0] - 2025-11-07
 
 ### Added
@@ -103,7 +114,8 @@ and this project adheres to
 
 - First netboot plugin release.
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.4.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.4.1...master
+[1.4.1]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.4.0...v1.4.1
 [1.4.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.3.0...v1.4.0
 [1.3.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.2.0...v1.3.0
 [1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis-netboot/-/compare/v1.1.0...v1.2.0
